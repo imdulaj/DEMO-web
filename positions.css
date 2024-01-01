@@ -1,0 +1,16 @@
+.box{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+.line{
+    width: 100vw;
+    height:40px;
+    background-color: brown;
+    position: sticky;
+    top: 0;
+}

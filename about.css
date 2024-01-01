@@ -1,0 +1,20 @@
+.inputs{
+    height: 30px;
+    weight: 200px;
+    border: 1px solid red ;
+    border-radius: 100px;
+}
+.btn{
+    height: 30px;
+    weight: 200px;
+    border-radius: 1px solid red;
+    background-color: brown;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.main{
+    margin-left: 700px;
+}

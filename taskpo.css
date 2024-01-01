@@ -1,0 +1,48 @@
+.first{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top: 10px;
+}
+
+.second{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.third{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.fourth{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.fifth{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: auto;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
