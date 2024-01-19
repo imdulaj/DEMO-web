@@ -1,0 +1,30 @@
+.containor{
+    display: flex;
+    flex-direction: column;
+}
+
+.containor2{
+    display: flex;
+}
+
+.first{
+    flex: 2;
+}
+
+.second{
+    flex: 5;
+}
+
+.third{
+    flex:1;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position:absolute;
+    top: 5px;
+    z-index: -1;
+    
+}
