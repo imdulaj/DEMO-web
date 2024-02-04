@@ -202,6 +202,11 @@ checkName();
 
 //===========================================================================================
 
+function clear(){
+    document.getElementById("mail").value="";
+    document.getElementById("ps").value="";
+}
+
 function relation(){
 
     var email = "admin@gmail.com";
@@ -210,13 +215,106 @@ function relation(){
     var userEmail = document.getElementById("mail").value;
     var userps = document.getElementById("ps").value;
 
-    if(email==userEmail){
-        alert("Login success");
-    }else{
-        alert("relogin");
-    }
 
+    if(email==userEmail && password == userps){
+        alert("Login success");
+
+    }else{
+        
+        count++;
+
+       if(count != 5){
+             alert("relogin");
+             clear(); 
+       }
+       else{
+        alert("account locked");
+       }
+               
+    }
+    
+    
 
 }
 
 relation();
+
+
+//==============================================================================================
+
+function calAVE(){
+
+    var science = document.getElementById("markss1").value;
+    science = parseInt(science);
+    var maths = document.getElementById("markss2").value;
+    maths = parseInt(maths);
+    var english = document.getElementById("markss3").value;
+    english = parseInt(english);
+
+    average = (science + maths + english)/3;
+
+    alert(average);
+}
+
+calAVE();
+
+
+
+//========switch case================
+
+var manAge = 35;
+
+switch(manAge){
+    case 30:
+        console.log("your age is 30");
+        break;
+    case 35:
+        console.log("your age is 35");
+        break;
+    case 40:
+        console.log("your age is 40");
+        break;
+    case 45:
+        console.log("your age is 45");
+        break;
+    default:
+        console.log("no age found");
+}
+
+
+
+
+//=======================================================================================
+
+
+for(var i=0; i<5; ++i){
+    console.log(i);
+}
+
+
+
+
+
+
+
+//===========================================================================================
+
+function checkNUM(){
+    
+    var num = document.getElementById("number").value;
+    num = parseInt(num);
+
+    if(num % 2 == 0){
+        console.log("even number");
+    }else{
+        console.log("odd number");
+    }
+}
+
+checkNUM();
+
+
+
+
+//==============================================================================================
+
